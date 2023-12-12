@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="/Assets/UI/Uss/Formation.uss"/>
+    <ui:VisualElement>
+        <ui:Box class="formation__offence--container"/>
+        
+    </ui:VisualElement>
+</ui:UXML>

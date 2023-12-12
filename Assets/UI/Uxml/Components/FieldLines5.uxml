@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="FieldLineDotted" src="/Assets/UI/Uxml/Components/FieldLineDotted.uxml"/>
+    <ui:Style src="/Assets/UI/Uss/FieldLine.uss"/>
+    <ui:VisualElement style="flex-direction: col;">
+        <ui:Instance template="FieldLineDotted" name="FieldLineDotted"/>
+        <ui:Instance template="FieldLineDotted" name="FieldLineDotted"/>
+        <ui:Box class="field__line"/>
+        <ui:Instance template="FieldLineDotted" name="FieldLineDotted"/>
+        <ui:Instance template="FieldLineDotted" name="FieldLineDotted"/>
+    </ui:VisualElement>
+</ui:UXML>

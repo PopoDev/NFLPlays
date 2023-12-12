@@ -1,0 +1,142 @@
+.whiteboard {
+    flex-grow: 1;
+    border-color: white;
+    border-width: 6px;
+}
+
+.field {
+    flex-grow: 1;
+    background-color: forestgreen;
+    border-color: white;
+    padding: 8px 0;
+}
+
+.sidebar {
+    flex-basis: 20%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+    border-color: white;
+    border-width: 6px;
+    padding: 8px 0;
+}
+
+.sidebar__header {
+    width: 100%;
+    background-color: #333;
+    border-color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.sidebar__player {
+    width: 300px;
+    color: white;
+    background-color: #666;
+    border-color: #333;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.sidebar__footer {
+    width: 100%;
+    background-color: #333;
+    border-color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.sidebar__header--label {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 8px 0;
+}
+
+.sidebar__player--label {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 8px 0;
+}
+
+.instructions {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    width: 60%;
+    height: 60px;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.instructions__label {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+}
+
+.progression {
+    flex-direction: row;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    width: 60%;
+    height: 60px;
+    align-items: center;
+    background-color: #333;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.progression__play {
+    font-size: 24px;
+    width: 10%;
+    padding: 6px;
+    margin-left: 8px;
+    margin-right: 4%;
+    border-radius: 6px;
+    color: white;
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+}
+
+.unity-base-slider__dragger {
+    width: 25px;
+    height: 25px;
+    border-radius: 50;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+.unity-base-slider__tracker {
+    height: 10px;
+    width: 80%;
+    background-color: white;
+}
+
+.button {
+    font-size: 24px;
+    width: 300px;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: #7f8c8d;
+    border-color: #7f8c8d;
+}
+.button:hover {
+    background-color: #6b7677;
+    border-color: #6b7677;
+}
+.button:active {
+    background-color: #576161;
+    border-color: #576161;
+}

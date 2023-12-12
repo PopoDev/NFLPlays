@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3711678419865343444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 580
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3685692520585564748, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_Name
+      value: Paladin_J_Nordstrom_Helmet
+      objectReference: {fileID: 0}
+    - target: {fileID: -1283408554089789195, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_Name
+      value: Paladin_J_Nordstrom_Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_Name
+      value: HumanoidDefence
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 51e71dcd69ccd0e5c8cf4215fa98bcc8, type: 2}
+    - target: {fileID: 5866666021909216657, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      propertyPath: m_UpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 1051571768989249988, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+    - {fileID: -7764487651825262745, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3084964298797934117}
+  m_SourcePrefab: {fileID: 100100000, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+--- !u!1 &4558748976366725253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3e5a79e0310e141f92cbdf2c06d7d4a, type: 3}
+  m_PrefabInstance: {fileID: 3711678419865343444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3084964298797934117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558748976366725253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c36ba7c0a348debf591ba99fb45d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

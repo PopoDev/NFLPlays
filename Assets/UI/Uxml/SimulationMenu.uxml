@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="/Assets/UI/Uss/SimulationMenu.uss"/>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:Box name="progression" class="progression">
+            <ui:Button text="Whiteboard" name="whiteboardButton" class="whiteboardButton"/>
+            <ui:Button text="Pause" name="playButton" class="button"/>
+            <ui:Slider name="slider" class="slider"/>
+        </ui:Box>
+    </ui:VisualElement>
+</ui:UXML>

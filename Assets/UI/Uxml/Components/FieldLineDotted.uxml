@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="/Assets/UI/Uss/FieldLine.uss"/>
+    <ui:VisualElement class="field__line-dotted--container">
+        <ui:Box class="field__line-dotted--border"/>
+        <ui:Box class="field__line-dotted"/>
+        <ui:Box class="field__line-dotted"/>
+        <ui:Box class="field__line-dotted--border"/>
+    </ui:VisualElement>
+</ui:UXML>

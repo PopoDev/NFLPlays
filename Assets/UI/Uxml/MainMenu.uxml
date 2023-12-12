@@ -1,0 +1,63 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="/Assets/UI/Uss/MainMenu.uss"/>
+    <ui:Style src="/Assets/UI/Uss/PlayerMarker.uss"/>
+    <ui:Template name="FieldLines5" src="/Assets/UI/Uxml/Components/FieldLines5.uxml"/>
+    <ui:Template name="Formation" src="/Assets/UI/Uxml/Components/Formation.uxml"/>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <!-- Sidebar -->
+        <ui:Box name="sidebar" class="sidebar">
+            <ui:Box name="sidebar__header" class="sidebar__header">
+                <ui:Label text="Whiteboard" class="sidebar__header--label"/>
+                <ui:Button text="Formation Offense" class="button" name="selectOffenseButton"/>
+                <ui:Button text="Formation Defense" class="button" name="selectDefenseButton"/>
+                <ui:Button text="Show Zones" class="button" name="showZonesButton"/>
+                <ui:Box name="sidebar__player" class="sidebar__player">
+                    <ui:Label text="No Player Selected" name="sidebar__player--label" class="sidebar__player--label"/>
+                </ui:Box>
+            </ui:Box>
+            <ui:Box name="sidebar__footer" class="sidebar__footer">
+                <ui:Button text="Load Play" class="button" name="loadPlayButton"/>
+                <ui:Button text="Save Play" class="button" name="savePlayButton"/>
+                <ui:Button text="Simulate" class="button" name="simulateButton"/>
+            </ui:Box>
+        </ui:Box>
+
+        <!-- Main Screen -->
+        <ui:Box name="whiteboard" class="whiteboard">
+            <!-- Field -->
+            <ui:Box name="field" class="field">
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+                <ui:Instance template="FieldLines5" name="FieldLines5"/>
+            </ui:Box>
+            <!-- Offensive Formation -->
+            <ui:Box name="formation__offensive" style="position: absolute; width: 80%; height: 42%; left: 10%; top: 50%; background-color: blue; border-color: transparent; z-index: 1; opacity: 0.75">
+                <!-- Offensive Line -->
+                <ui:Box name="formation__offensive--front" style="position: absolute; width: 60%; height: 33%; left: 20%; top: 0%; background-color: black; border-color: transparent;"/>
+                <!-- Backfield -->
+                <ui:Box name="formation__offensive--back" style="position: absolute; width: 30%; height: 67%; left: 35%; top: 33%; background-color: yellow; border-color: transparent;"/>
+                <!-- Receivers, Rest of the field -->
+            </ui:Box>
+            <!-- Defensive Formation -->             
+            <ui:Box name="formation__defensive" style="position: absolute; width: 80%; height: 42%; left: 10%; top: 8%; background-color: red; border-color: transparent; z-index: 1; opacity: 0.75">
+                <!-- Defensive Line -->
+                <ui:Box name="formation__defensive--dl" style="position: absolute; width: 60%; height: 20%; left: 20%; top: 80%; background-color: grey; border-color: transparent;"/>
+                <!-- Linebackers -->
+                <ui:Box name="formation__defensive--lb" style="position: absolute; width: 60%; height: 20%; left: 20%; top: 60%; background-color: magenta; border-color: transparent;"/>
+                <!-- Defensive Backs, Rest of the field -->
+            </ui:Box>
+
+            <ui:Box name="instructions" class="instructions">
+                <ui:Label text="Click Simulate to view the play in 3D" name="instructions__label" class="instructions__label"/>
+            </ui:Box>
+<!--            <ui:Box name="progression" class="progression">
+                <ui:Button text="Play" name="progression__play" class="progression__play"/>
+                <ui:Slider name="slider" class="slider"/>
+            </ui:Box>-->
+        </ui:Box>
+    </ui:VisualElement>
+</ui:UXML>
